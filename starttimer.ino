@@ -27,8 +27,7 @@ bool rtc;
 
 void setup() {
   Serial.begin();
-  while(!Serial);
-  Serial.println("hello");
+//  while(!Serial);
   pinMode(LED, OUTPUT);
   pinMode(PB12, OUTPUT);
   digitalWrite(LED, 0);
